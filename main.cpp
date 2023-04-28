@@ -6,6 +6,7 @@
 #include "mpr121.h"
 #include "XNucleo53L0A1.h"
 #include "uLCD_4DGL.h"
+#undef I2C
 
 DigitalOut led1(LED1);
 DigitalOut led2(LED2);
